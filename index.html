@@ -34,6 +34,10 @@ h1{font-size:clamp(38px,8vw,76px);line-height:1.02;margin:0;background:linear-gr
 .stat span{color:var(--mute);font-size:13px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
 .card{transition:.25s}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:stretch}
+.btn{overflow-wrap:anywhere}
+@media(max-width:760px){.g2{grid-template-columns:1fr}}
+@media(max-width:600px){section{padding:54px 5vw 6px}.hero{min-height:auto;padding-top:44px;padding-bottom:16px}.btns .btn{flex:1 1 calc(50% - 12px);text-align:center}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.photo{width:120px;height:120px}nav{padding:10px 4vw}.card{padding:16px}}
 .card:hover{border-color:var(--g2);transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,.5),0 0 20px rgba(45,255,143,.08)}
 .card h3{margin:0 0 6px;font-size:17px}
 .card p{margin:0;color:var(--mute);font-size:14.5px}
@@ -102,7 +106,7 @@ footer{text-align:center;color:var(--mute);font-size:13px;padding:70px 5vw 40px}
 </div></section>
 
 <section id="ip"><h2>Intellectual Property</h2>
-<div class="grid">
+<div class="g2">
 <div class="card ip"><span class="tag">Registered design</span><h3>Drone with Protective Motor Shrouds</h3><p>Design No. 462301-001 registered under India's Designs Act (certificate issued 27 Oct 2026), co-registered with CHRIST faculty. Built for delivery use.</p></div>
 <div class="card ip"><span class="tag">Patent pending</span><h3>Smart Gloves</h3><p>Utility patent application filed for smart gloves; currently pending.</p></div>
 </div></section>
@@ -116,7 +120,7 @@ footer{text-align:center;color:var(--mute);font-size:13px;padding:70px 5vw 40px}
 
 <section id="skills"><h2>Skills &amp; Certifications</h2>
 <div class="chips" style="margin-bottom:22px"><span>Simulink</span><span>Model-Based Design</span><span>MATLAB</span><span>ROS / ROS2</span><span>Python</span><span>SolidWorks</span><span>Fusion 360</span><span>Gazebo</span><span>Arduino</span><span>PLC (Siemens S7-1200)</span><span>OpenCV</span></div>
-<div class="grid">
+<div class="g2">
 <div class="card"><h3 style="margin-bottom:14px">Certifications</h3><ul class="lst"><li>Automotive SPICE (ASPICE) overview</li><li>MBD for Automotive using Simulink</li><li>Build Embedded Systems with Simulink</li><li>Electric Vehicle Technology</li><li>ROS2 AI Robot with Raspberry Pi (Udemy, 2025)</li><li>ROS2 Mobile Robotics with OpenCV (Udemy, 2025)</li><li>Programming for Data Analytics, L&amp;T Edutech (2023)</li></ul></div>
 <div class="card"><h3 style="margin-bottom:14px">Recognition</h3><ul class="lst"><li>Best Project of the Year, KSCST (Karnataka State Council for Science and Technology)</li><li>2nd place, Innovate-a-thon ETNA 2025</li><li>Certificate of Appreciation, UD Trucks Technology Day 2025: for significant contributions as a Station Owner</li><li>Merit Scholarship (2nd &amp; 3rd year)</li><li>Top 10% of the Robotics &amp; Mechatronics programme</li></ul></div>
 <div class="card"><h3 style="margin-bottom:14px">Beyond engineering</h3><ul class="lst"><li>University Robotics Society member</li><li>Dubai Cares volunteer</li><li>Class Representative for 3 years</li></ul></div>
