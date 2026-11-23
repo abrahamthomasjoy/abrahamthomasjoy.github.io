@@ -37,6 +37,7 @@ h1{font-size:clamp(38px,8vw,76px);line-height:1.02;margin:0;background:linear-gr
 .card:hover{border-color:var(--g2);transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,.5),0 0 20px rgba(45,255,143,.08)}
 .card h3{margin:0 0 6px;font-size:17px}
 .card p{margin:0;color:var(--mute);font-size:14.5px}
+.lst{list-style:none;margin:0;padding:0}.lst li{position:relative;padding-left:18px;margin-bottom:9px;color:var(--mute);font-size:14.5px;line-height:1.45}.lst li::before{content:"";position:absolute;left:0;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--g);box-shadow:0 0 8px var(--g)}
 .tag{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--g);border:1px solid var(--g3);border-radius:99px;padding:2px 10px;margin-bottom:10px}
 .tl{border-left:1px solid var(--g3);margin-left:6px;padding-left:24px}
 .job{position:relative;margin-bottom:26px}
@@ -65,7 +66,7 @@ footer{text-align:center;color:var(--mute);font-size:13px;padding:70px 5vw 40px}
 <div class="stat"><b>9.43</b><span>CGPA / 10, B.Tech</span></div>
 <div class="stat"><b>3</b><span>Industry internships</span></div>
 <div class="stat"><b>1+1</b><span>Registered design + patent application</span></div>
-<div class="stat"><b>KSCST</b><span>Best Project of the Year</span></div>
+<div class="stat"><b>KSCST</b><span>Karnataka State Council for Science &amp; Technology: Best Project of the Year</span></div>
 </div>
 </section>
 
@@ -89,7 +90,7 @@ footer{text-align:center;color:var(--mute);font-size:13px;padding:70px 5vw 40px}
 
 <section id="projects"><h2>Projects</h2>
 <div class="grid">
-<div class="card"><span class="tag">Award winner</span><h3>Humanoid Bot with Autonomous Navigation</h3><p>Led a team of 4 integrating text-to-speech, speech recognition and image recognition. KSCST State-Level Best Project of the Year.</p></div>
+<div class="card"><span class="tag">Award winner</span><h3>Humanoid Bot with Autonomous Navigation</h3><p>Led a team of 4 integrating text-to-speech, speech recognition and image recognition. Best Project of the Year at the KSCST (Karnataka State Council for Science and Technology) State-Level Project Exhibition.</p></div>
 <div class="card"><span class="tag">ROS · SLAM</span><h3>Automated 4-Wheeled LiDAR Robot</h3><p>ROS-integrated, SLAM-enabled robot with LiDAR and Raspberry Pi 4 for autonomous navigation. Team of 4.</p></div>
 <div class="card"><span class="tag">Explainable AI</span><h3>E-waste Specialised Gloves</h3><p>XAI-based processing of worker bio-data through embedded gloves, plus a cooling chamber design to improve hygiene.</p></div>
 <div class="card"><span class="tag">Embedded · EV</span><h3>Motor Control with MBD</h3><p>Motor control systems in Simulink, flashed to NXP kits and validated in real time for EV applications.</p></div>
@@ -116,9 +117,10 @@ footer{text-align:center;color:var(--mute);font-size:13px;padding:70px 5vw 40px}
 <section id="skills"><h2>Skills &amp; Certifications</h2>
 <div class="chips" style="margin-bottom:22px"><span>Simulink</span><span>Model-Based Design</span><span>MATLAB</span><span>ROS / ROS2</span><span>Python</span><span>SolidWorks</span><span>Fusion 360</span><span>Gazebo</span><span>Arduino</span><span>PLC (Siemens S7-1200)</span><span>OpenCV</span></div>
 <div class="grid">
-<div class="card"><h3>Certifications</h3><p>Automotive SPICE (ASPICE) overview · MBD for Automotive using Simulink · Build Embedded Systems with Simulink · Electric Vehicle Technology · ROS2 AI Robot with Raspberry Pi (Udemy, 2025) · ROS2 Mobile Robotics with OpenCV (Udemy, 2025) · Programming for Data Analytics, L&amp;T Edutech (2023)</p></div>
-<div class="card"><h3>Recognition</h3><p>KSCST Best Project of the Year · 2nd place, Innovate-a-thon ETNA 2025 · UD Trucks Technology Day 2025 appreciation · Merit Scholarship (2nd &amp; 3rd year) · Top 10% of the Robotics &amp; Mechatronics programme</p></div>
-<div class="card"><h3>Beyond engineering</h3><p>University Robotics Society member · Dubai Cares volunteer · Class Representative for 3 years · English, Malayalam, Hindi (fluent), Arabic (basic)</p></div>
+<div class="card"><h3 style="margin-bottom:14px">Certifications</h3><ul class="lst"><li>Automotive SPICE (ASPICE) overview</li><li>MBD for Automotive using Simulink</li><li>Build Embedded Systems with Simulink</li><li>Electric Vehicle Technology</li><li>ROS2 AI Robot with Raspberry Pi (Udemy, 2025)</li><li>ROS2 Mobile Robotics with OpenCV (Udemy, 2025)</li><li>Programming for Data Analytics, L&amp;T Edutech (2023)</li></ul></div>
+<div class="card"><h3 style="margin-bottom:14px">Recognition</h3><ul class="lst"><li>Best Project of the Year, KSCST (Karnataka State Council for Science and Technology)</li><li>2nd place, Innovate-a-thon ETNA 2025</li><li>Certificate of Appreciation, UD Trucks Technology Day 2025: for significant contributions as a Station Owner</li><li>Merit Scholarship (2nd &amp; 3rd year)</li><li>Top 10% of the Robotics &amp; Mechatronics programme</li></ul></div>
+<div class="card"><h3 style="margin-bottom:14px">Beyond engineering</h3><ul class="lst"><li>University Robotics Society member</li><li>Dubai Cares volunteer</li><li>Class Representative for 3 years</li></ul></div>
+<div class="card"><h3 style="margin-bottom:14px">Languages</h3><ul class="lst"><li><b style="color:var(--text);font-weight:600">English</b> — C1 (Advanced) · IELTS 7.5</li><li><b style="color:var(--text);font-weight:600">Malayalam</b> — Native</li><li><b style="color:var(--text);font-weight:600">Hindi</b> — B2 (Professional working)</li><li><b style="color:var(--text);font-weight:600">Tamil</b> — B1 (Conversational, passive)</li><li><b style="color:var(--text);font-weight:600">Kannada</b> — B1 (Conversational, passive)</li><li><b style="color:var(--text);font-weight:600">Arabic</b> — A2 (Reading)</li></ul><p style="margin-top:12px;font-size:12px">Levels follow the CEFR scale (A1 beginner to C2 mastery).</p></div>
 </div></section>
 
 <section id="contact"><h2>Contact</h2>
